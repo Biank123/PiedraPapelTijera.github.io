@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="juegoencss.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>¡Juguemos Piedra, Papel o Tijera!</h1>
+        <div id="resultados">
+            <!-- resultados del juego -->
+        </div>
+        <div id="elecciones">
+            <button onclick="jugar('piedra')"> 
+                <img src="piedra.webp" alt="Piedra" width="100">
+                <p>Piedra</p>
+            </button>
+            <button onclick="jugar('papel')">
+                <img src="papel.png" alt="Papel" width="100">
+                <p>Papel</p>
+            </button>
+            <button onclick="jugar('tijera')">
+                <img src="tijera.png" alt="Tijera" width="100">
+                <p>Tijera</p>
+            </button>
+        </div>
+        <button id="jugar-otra-vez" onclick="reiniciarJuego()" style="display: none;">Jugar Otra Vez</button>
+    </div>
+    <script src="juegoenjs.js"></script>
+</html>
+

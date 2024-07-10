@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(18, 18, 82);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(40, 190, 190);
+    border: 5px solid #0f0000; /* que tenga un borde negro el contenedor principal*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width: 600px; /* fijar el ancho del contenedor para evitar que cambie de tamaño */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer; /* el cursos cambia a manito al estar encima del botón*/
+}
+
+#resultados {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result-container {
+    background-color: #a549b7;
+    border: 3px solid #0f0000; /* que tenga un borde negro el contenedor de resultados */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left; /* alinear el texto más a la izquierda */
+}
+
+#manos-resultados {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#texto-resultados {
+    text-align: center;
+}
+
+#elecciones button {
+    background-color: #021628;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center; /* centrar el contenido del botón */
+}
+
+#elecciones button:hover {
+    background-color: #9e16b9;
+}
+
+#jugar-otra-vez {
+    background-color: #021628;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#jugar-otra-vez:hover {
+    background-color: #9e16b9; /*al poner encima el mouse, cambia de color*/
+}
+
+#elecciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#elecciones button img {
+    display: block;
+    margin: 0 auto; /* centrar la imagen dentro del botón */
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
